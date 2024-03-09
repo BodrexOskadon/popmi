@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+   
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            warnaterang: "#000000",
+            warnagelap: "#0C2D57",
+            background: "#52D3D8",
+
+
+          },
+          container: {
+            center: true,
+            padding: "34px"
+          },
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-background">
+  <section id="home" class="pt-24 pb-24">
+    <div class="container">
+      <div class="flex-wrap">
+        <div align="center" class="w-full px-4 lg:w-1/2 self-center">
+          <img src="img/luar-6a179c34145ae6bb8739f58ddf80410d_600x400.jpg" alt="" widht="400" class="rounded-full shadow-x1 shadow-warnaterang">
+        </div>
+        <div class="w-full px-4 lg:w-1/2 self-center">
+          <h1 class="mt-5 text-lg mb-5 lg:text-4x1 font-bold text-black">Im Oskadon <span class="title"></span></h1>
+          <p class="mb-5 tracking-tight font-extralight text-darkcolor">Ketika kamu merasa kehilangan harapan, ingat bahwa Tuhan telah menciptakan rencana terindah untuk hidup kita.</p>
+          <a href="#" class="bg-warnaterang px-5 py-2 font-bold text-base text-semilight rounded-lg text-warnagelap">CV</a>
+        </div>
+       </div>
+    </div> 
+  </section>
+
+  <section id="about" class="pt-24 pb-24">
+    <div class="container">
+      <h1 class="text-center font-bold text-lg mb-5">About me</h1>
+      <div class="flex flex-wrap">
+        <div align="center" class="w-full lg:w-1/2 px-4 mt-5 mb-8">
+          <img src="img/219782.gif" alt="" width="370" class="rounded-full shadow-xl shadow-warnaterang ">
+        </div>
+        <div class="w-full lg:w-1/2 px-4 self-center">
+        <h1 class="font-bold text-lg text-warnaterang mb-5">Hello Everyone</h1>
+        <hr class="border-warnaterang sm:mx-auto mb-7 ">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-2">
+          <div class="mb-2 grid">
+            <h1 class="font-bold text-lg text-warnaterang mb-2">social media</h1>
+            <a href="https://www.instagram.com/angga.jaya97/" class="font-reguler text"></a>
+          </div>
+
+        </div class="mb-2 grid"> 
+         <h1 class="font-bold text-lg text-warnaterang mb-2">Activity</h1>
+         <h1 class="font-reguler text-md text-warnagelap">Sleep</h1>
+         <h1 class="font-reguler text-md text-warnagelap">Basketball</h1>
+         <h1 class="font-reguler text-md text-warnagelap">Play video Games</h1>
+        </div>
+
+        </div class="mb-2 grid">
+        <h1 class="font-reguler text-md text-warnagelap">Slee</h1>
+        <h1 class="font-reguler text-md text-warnagelap">Slee</h1>
+    </div>
+  </section>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> 
+  <script>
+    var typed = new Typed('.title', {
+      strings: ['Bounty Hunter'],
+      typeSpeed: 14,
+      backspeed: 114, 
+      loop: true
+    });
+  </script>
+</body>
+</html> 
